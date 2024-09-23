@@ -4,10 +4,12 @@ package net.sarrthac.banking.entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
 @Table(name = "accounts")
+@NoArgsConstructor
 @AllArgsConstructor
 public class Account {
 

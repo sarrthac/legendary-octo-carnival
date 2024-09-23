@@ -8,6 +8,6 @@ import lombok.Data;
 @AllArgsConstructor
 public class AccountDto {
     private  Long id;
-    private String accountholderName;
+    private String accountHolderName;
     private double balance;
 }
